@@ -1,13 +1,5 @@
 from robocorp import browser
 from RPA.Robocorp.Vault import Vault
-from robocorp.tasks import task
-from RPA.HTTP import HTTP
-from RPA.PDF import PDF
-import csv
-from robocorp import log
-import os
-from RPA.Archive import Archive
-import shutil
 
 _secret = Vault().get_secret("Credentials")
 

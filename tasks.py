@@ -1,12 +1,5 @@
 from robocorp.tasks import task
 from robocorp import browser
-from RPA.HTTP import HTTP
-from RPA.PDF import PDF
-import csv
-from robocorp import log
-import os
-from RPA.Archive import Archive
-import shutil
 from sub_task_files.websiteActions import open_the_intranet_website, close_modal, press_order, press_order_another
 from sub_task_files.FileControl import generate_pdf, download_orders_csv, get_orders, archive_receipts
 

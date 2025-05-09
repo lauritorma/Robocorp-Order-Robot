@@ -3,7 +3,6 @@ from robocorp import browser
 from RPA.HTTP import HTTP
 from RPA.PDF import PDF
 import csv
-from robocorp import log
 import os
 from RPA.Archive import Archive
 import shutil
